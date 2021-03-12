@@ -1,0 +1,14 @@
+main(){
+  int number = 3;
+  switch(number){
+    case 0:
+    print('even');
+    break;
+    case 1:
+    print('odd');
+    break;
+    default:
+    print('confused');
+
+  }
+}

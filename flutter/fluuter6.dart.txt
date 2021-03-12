@@ -1,0 +1,31 @@
+class Person {
+  String name;
+  int age;
+
+  Person(this.name, this.age);
+  
+  Person.guest(this.name, this.age);
+
+
+  //name constructor
+
+
+  void showOutput(){
+    print(name);
+    print(age);
+  }
+}
+
+main(){
+  Person person1 = Person('asha', 24);
+
+  person1.showOutput();
+  
+  Person person2 = Person('pooja',22);
+
+  person2.showOutput();
+
+  Person person3 = Person('abhi',19);
+
+  person3.showOutput();
+}

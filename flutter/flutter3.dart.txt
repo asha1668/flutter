@@ -1,0 +1,8 @@
+main(){
+  List <String> names =['jack', 'jar'];
+
+  names[1] = 'mark';
+  for(var n in names){
+    print(n);
+  }
+}
